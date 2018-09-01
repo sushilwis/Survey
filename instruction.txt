@@ -1,0 +1,58 @@
+___________________________________
+###   Work Flow / User guide  ### 
+-----------------------------------
+Steps : 
+
+    1. To go to the INDEX page, follow this link : 
+        "https://www.tandyscandy.com/form".
+
+    2. To go to the ADMIN page, follow this link : 
+        "https://www.tandyscandy.com/form/admin.php".
+
+    3. To go to the FORM Page for inserting test data, follow this link : 
+        "https://www.tandyscandy.com/form/form.php".
+
+    4. To reset the ID to start from 1.
+        "Drop/Delete the table completely and re-create the table as it is before."    
+
+
+
+
+
+________________________________________________________
+###  Inserting OR Embeding JOT FORM to the Project  ###
+--------------------------------------------------------
+Steps : 
+
+    1. Copy the Embed Code of your "JOT FORM". 
+        Which is looks like the below example code --
+        "<script type="text/javascript" src="https://form.jotform.me/jsform/82210660771451"></script>"
+
+    2. Now make a page(here we used, "surveyForm.php"), where you want to insert the form.
+
+    3. Paste the Embed Code before the closing body tag. 
+
+
+
+
+____________________________________
+###   Getting the form data   ### 
+-------------------------------------
+Steps : 
+
+    1. Go to the "EDIT THANK YOU PAGE" of your JOT FORM.
+
+    2. click on the "Redirect To External Link".
+
+    3. give a link of your app, where you want to POST the form data. 
+       (here we used, "http://localhost/csv-upload/surveyFormSubmit.php").
+
+    4. Go to the form setting and find "Send Post Data" option and choose "Yes".   
+
+    4. you will get "submission_id, formID, ip" along with your form data.
+
+
+
+
+
+    

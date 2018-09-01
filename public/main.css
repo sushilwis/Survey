@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
+
+body{ 
+    font-size: 14px; 
+    color: #333; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+a:hover{ 
+    text-decoration: none; 
+}
+
+
+
+
+/* loading screen css*/
+#loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    /* background-image: url("https://i.stack.imgur.com/MnyxU.gif"); */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  #load-window{
+    background-color: black;
+    width: 45%;
+    height: 35%;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  #load-window-content{
+    width: 100%;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
